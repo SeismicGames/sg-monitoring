@@ -1,0 +1,24 @@
+class monitoring::params {
+  $env                      = 'local'
+  $postgresql_pass          = 'postgres'
+  $sensu_rabbitmq_user      = 'sensu'
+  $sensu_rabbitmq_pass      = 'sensu'
+  $graphite_sql_user        = 'graphite'
+  $graphite_sql_pass        = 'graphite'
+  $grafana_sql_user         = 'grafana'
+  $grafana_sql_pass         = 'grafana'
+  $grafana_admin_user       = 'admin'
+  $grafana_admin_pass       = 'admin'
+  $memcached_max_memory     = '20%'
+  $domain                   = undef
+  $graphite_secret_key      = undef
+  $sensu_api_user           = 'sensu'
+  $sensu_api_pass           = 'sensu'
+  $email_user               = undef
+  $email_password           = undef
+  $email_server             = undef
+  $email_from               = undef
+  $email_to                 = undef
+  $email_port               = undef
+  $additional_subscriptions = []
+}

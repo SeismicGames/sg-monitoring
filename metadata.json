@@ -1,0 +1,26 @@
+{
+  "name": "sg-monitoring",
+  "version": "0.0.1",
+  "author": "Seismic Games",
+  "summary": "Module to set up a monitoring server",
+  "license": "MIT",
+  "source": "github.com/SeismicGames/sg-monitoring",
+  "project_page": "https://github.com/SeismicGames/sg-monitoring",
+  "issues_url": "https://github.com/SeismicGames/sg-monitoring/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib", "version_requirement":">= 1.0.0"},
+    {"name":"puppet-rabbitmq", "version_requirement":">= 8.1.0"},
+    {"name":"jdowning-statsd", "version_requirement":">= 3.1.0"},
+    {"name":"puppet-grafana", "version_requirement":">= 4.2.0"},
+    {"name":"dwerder-graphite", "version_requirement":">= 7.3.0"},
+    {"name":"puppetlabs-postgresql", "version_requirement":">= 5.1.0"},
+    {"name":"saz-memcached", "version_requirement":">= 3.1.0"},
+    {"name":"puppet-nginx", "version_requirement":">= 0.12.0"},
+    {"name":"puppet-healthcheck", "version_requirement":">= 0.4.0"},
+    {"name":"arioch-redis", "version_requirement":">= 3.1.0"},
+    {"name":"sensu-sensu", "version_requirement":">= 2.50.0"},
+    {"name":"yelp-uchiwa", "version_requirement":">= 2.0.0"},
+    {"name":"sg-uwsgi", "version_requirement":">= 0.0.1"}
+  ]
+}
+
