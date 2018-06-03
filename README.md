@@ -15,6 +15,9 @@
 
 This Puppet module builds a complete monitoring/stats solution on a single machine.
 
+This module requires [sg-uwsgi] (https://github.com/SeismicGames/sg-uwsgi) to be in
+your Puppet modules location.
+
 ## Module Description
 
 There are a lot of Puppet modules out there for individual pieces to build a 
