@@ -28,7 +28,7 @@ This Puppet module does that.
 
 To use:
 
-```
+```puppet
 class { 'monitoring':
   env => 'local', 
   domain => 'localhost' 
